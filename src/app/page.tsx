@@ -3,17 +3,17 @@ import styles from './page.module.css'
 import localFont from "next/font/local";
 
 const font = localFont({
-  src: "ganesha.ttf",
+  src: "SAMAN.ttf",
 });
 
 export default function Home() {
   return (
-    <main className={`${styles.main} ${font.className}`}>
+    <main className={styles.main}>
       <div className={styles.center}>
         <div>
-          <span className={styles.title}>Swift Bharat</span>
+          <span className={`${styles.title} ${font.className}`}>Swift Bharat</span>
           <br />
-          <span className={styles.subtitle}>Coming Soon in 2024</span>
+          <span className={styles.subtitle}>Coming Soon in 2024 ⌚️</span>
         </div>
       </div>
     </main>

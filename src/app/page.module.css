@@ -6,12 +6,6 @@
   padding: 6rem;
   min-height: 100vh;
   background-color: #f47115;
-  /* orange to black linear gradient */
-  background: linear-gradient(
-    to bottom,
-    rgba(244, 113, 21, 1) 40%,
-    rgba(0, 0, 0, 1) 100%
-  );
  
 }
 .center {
