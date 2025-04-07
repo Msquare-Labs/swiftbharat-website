@@ -54,7 +54,7 @@
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.2;
-  margin: 1rem 0;
+  margin: 1rem 0 0.5rem;
   color: #000000;
   position: relative;
   display: inline-block;
@@ -64,6 +64,14 @@
   color: #000000;
   margin: 0 0.5rem;
   font-size: 3rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 1.5rem;
+  font-style: italic;
 }
 
 .date {
@@ -108,6 +116,11 @@
 
   .titleDecoration {
     font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
   }
 
   .date {

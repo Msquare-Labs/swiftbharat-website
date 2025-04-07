@@ -14,7 +14,7 @@ export default function Home() {
           <div className={styles.mandala}></div>
           <div className={styles.logoContainer}>
             <Image
-              src="/logo-without-bg.png"
+              src="https://swiftbharat.org/logo.png"
               alt="Swift Bharat Logo"
               width={200}
               height={200}
@@ -26,6 +26,7 @@ export default function Home() {
             Swift Bharat
             <span className={styles.titleDecoration}>॰</span>
           </h1>
+          <p className={styles.tagline}>1st International Swift conference in India</p>
           <p className={styles.date}>26th - 27th September, 2025</p>
           <p className={styles.venue}>Venue: BIC, Bengaluru, India.</p>
           <div className={styles.decorativeLine}></div>
