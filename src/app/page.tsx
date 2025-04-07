@@ -26,7 +26,6 @@ export default function Home() {
             Swift Bharat
             <span className={styles.titleDecoration}>॰</span>
           </h1>
-          <p className={styles.tagline}>1st International Swift conference in India</p>
           <p className={styles.date}>26th - 27th September, 2025</p>
           <p className={styles.venue}>Venue: BIC, Bengaluru, India.</p>
           <div className={styles.decorativeLine}></div>

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Swift Bharat',
-  description: 'The first ever global Swift conference in India',
+  description: 'International Swift conference in India',
 }
 
 export default function RootLayout({
