@@ -13,12 +13,12 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.mandala}></div>
           <div className={styles.logoContainer}>
-            <Image
-              src="https://swiftbharat.org/logo.png"
+            <img
+              src="/logo.png"
               alt="Swift Bharat Logo"
               width={200}
               height={200}
-              priority
+
             />
           </div>
           <h1 className={`${styles.title} ${font.className}`}>
